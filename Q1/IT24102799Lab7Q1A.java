@@ -17,7 +17,7 @@ public class IT24102799Lab7Q1A {
         int num4=scanner.nextInt();
 
         int count= num1 + num2 + num3 + num4 ;
-        float avg=count/4;
+        double avg=count/4;
 
         System.out.println("Average is :"+ avg);
 
