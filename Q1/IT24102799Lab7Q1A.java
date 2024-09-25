@@ -23,9 +23,9 @@ public class IT24102799Lab7Q1A {
 
         String grade;
 
-        if(avg>=75){
+        if(avg>=75 && avg<=100 ){
             grade ="Distinction";
-        }else if (avg>=50){
+        }else if (avg>=50 && avg<=74 ){
             grade ="Credit";
         }else{
         grade ="Fail";
